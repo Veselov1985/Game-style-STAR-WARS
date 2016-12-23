@@ -1,0 +1,103 @@
+
+  html{
+        font-family: Arial, "Free Sans";
+    }
+
+    #boxcard {
+      padding-top: 40px;
+    margin: 0 auto;
+
+
+    }
+
+    #boxcard div {
+        float: left;
+        width: 100px;
+        height: 100px;
+        background: #d9d9d9;
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid #999;
+        cursor: pointer;
+        -webkit-border-radius: .5em;
+        -moz-border-radius: .5em;
+        border-radius: .5em;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+        -moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+        box-shadow: 0 1px 2px rgba(0,0,0,.5);
+
+    }
+
+    #boxcard div img {
+      width: 100px;
+      height: 100px;
+        border: none;
+        z-index: 3;
+
+    }
+
+    .opacity {
+        opacity: .6;
+        filter: alpha(opacity=60);
+    }
+
+    #boxbutton {
+        text-align: center;
+        padding: 20px;
+        margin: auto;
+    }
+
+
+ .view {
+   opacity: 0;
+
+}
+
+
+
+    .button{
+
+     text-decoration:none;
+     text-align:center;
+     padding:13px 81px;
+     border:solid 3px #004F72;
+     -webkit-border-radius:40px;
+     -moz-border-radius:40px;
+     border-radius: 40px;
+     font:34px "Times New Roman", Times, serif;
+     font-weight:bold;
+     color:#E5FFFF;
+     background-color:#3BA4C7;
+     text-shadow: 3px 1px 9px #bababa;
+
+}
+
+
+#win {
+  text-align: center;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+  font-size: 100px;
+  color:red;
+  text-align: center;
+width: 100%;
+border: 3px solid #000;
+position: absolute;
+margin:auto;
+}
+
+.button_new_game {
+ text-align:center;
+ margin: 200px;
+  padding:13px 81px;
+  border:solid 3px #004F72;
+  border-radius: 40px;
+  font:34px "Times New Roman", Times, serif;
+  font-weight:bold;
+  color:#E5FFFF;
+  background-color:#3BA4C7;
+
+
+
+}
